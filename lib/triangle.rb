@@ -10,12 +10,12 @@ class Triangle
   def kind
     validate
     if a == b && b == c
-      :equilateral
-    elsif a == b || b == c || a == c
-      :isosceles
-    else
-      :scalene
-    end
+    :equilateral
+    elsif a == b || b ==c || a==c
+    :isosceles
+    else 
+    :scalene
+    end 
   end
 
   def validate
